@@ -96,12 +96,12 @@ Have a brand, website, or digital product that needs something different?
 
 <br>
 
+### We build the part people remember.
+
+<br>
+
 **[crtzax.com](https://crtzax.com)** · **[hello@crtzax.com](mailto:hello@crtzax.com)**
 
 <sub>North Carolina / Worldwide</sub>
-
-<br><br>
-
-### We build the part people remember.
 
 </div>
