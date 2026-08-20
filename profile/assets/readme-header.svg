@@ -1,0 +1,131 @@
+<svg width="920" height="360" viewBox="0 0 920 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="54" y1="28" x2="865" y2="340" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#121214"/>
+      <stop offset="0.52" stop-color="#0B0B0C"/>
+      <stop offset="1" stop-color="#070708"/>
+    </linearGradient>
+
+    <linearGradient id="signal" x1="157" y1="55" x2="760" y2="308" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF6A3D"/>
+      <stop offset="0.48" stop-color="#FF3B14"/>
+      <stop offset="1" stop-color="#D91E00"/>
+    </linearGradient>
+
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+      gradientTransform="translate(663 175) rotate(180) scale(300 178)">
+      <stop stop-color="#FF3B14" stop-opacity="0.17"/>
+      <stop offset="1" stop-color="#FF3B14" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="24"/>
+    </filter>
+
+    <filter id="logoShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#000000" flood-opacity="0.26"/>
+    </filter>
+
+    <clipPath id="clip">
+      <rect width="920" height="360" rx="30"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#clip)">
+    <rect width="920" height="360" rx="30" fill="url(#bg)"/>
+
+    <!-- subtle grid -->
+    <g opacity="0.06" stroke="#FFFFFF" stroke-width="1">
+      <path d="M0 72H920M0 144H920M0 216H920M0 288H920"/>
+      <path d="M92 0V360M184 0V360M276 0V360M368 0V360M460 0V360M552 0V360M644 0V360M736 0V360M828 0V360"/>
+    </g>
+
+    <!-- ambient signal glow -->
+    <ellipse cx="685" cy="184" rx="295" ry="170" fill="url(#glow)"/>
+
+    <!-- left orbital form -->
+    <circle cx="38" cy="76" r="116" stroke="#FF3B14" stroke-width="1.5" opacity="0.22"/>
+    <circle cx="38" cy="76" r="84" stroke="#FF3B14" stroke-width="1" opacity="0.12"/>
+    <circle cx="38" cy="76" r="5" fill="#FF3B14"/>
+    <path d="M-32 163C39 120 106 123 170 168" stroke="#FF3B14" stroke-width="1.5" opacity="0.22"/>
+
+    <!-- right signal field -->
+    <path d="M704 -20C776 62 788 110 855 151C885 170 919 180 952 182"
+          stroke="#FF3B14" stroke-width="1.5" opacity="0.18"/>
+    <path d="M683 -9C759 76 770 126 844 169C876 188 911 198 948 201"
+          stroke="#FF3B14" stroke-width="1.5" opacity="0.11"/>
+    <path d="M663 3C741 89 751 143 830 187C865 207 905 216 944 218"
+          stroke="#FF3B14" stroke-width="1.5" opacity="0.07"/>
+
+    <!-- lower signal ribbon -->
+    <path d="M505 330C592 286 660 277 745 294C812 307 862 328 936 342"
+          stroke="url(#signal)" stroke-width="2.5" opacity="0.72"/>
+    <path d="M520 341C612 298 677 292 759 307C817 318 868 336 938 349"
+          stroke="#FF3B14" stroke-width="1" opacity="0.18"/>
+
+    <!-- accent objects -->
+    <circle cx="825" cy="67" r="7" fill="#FF3B14"/>
+    <circle cx="851" cy="91" r="3" fill="#FF6A3D" opacity="0.75"/>
+    <circle cx="874" cy="67" r="2" fill="#FF3B14" opacity="0.55"/>
+    <circle cx="112" cy="294" r="3" fill="#FF3B14" opacity="0.75"/>
+
+    <!-- large blurred accent behind mark -->
+    <ellipse cx="474" cy="182" rx="132" ry="72" fill="#FF3B14" opacity="0.06" filter="url(#softGlow)"/>
+
+    <!-- top labels -->
+    <text x="42" y="42"
+      fill="#FF3B14"
+      font-family="Arial, Helvetica, sans-serif"
+      font-size="11"
+      font-weight="700"
+      letter-spacing="2.8">CRTZAX / GITHUB</text>
+
+    <text x="878" y="42"
+      text-anchor="end"
+      fill="#8D8D93"
+      font-family="Arial, Helvetica, sans-serif"
+      font-size="10"
+      font-weight="700"
+      letter-spacing="2.1">EST. 2026</text>
+
+    <!-- main lockup -->
+    <g filter="url(#logoShadow)">
+      <text x="460" y="193"
+        text-anchor="middle"
+        fill="#F7F7F5"
+        font-family="Arial Black, Arial, Helvetica, sans-serif"
+        font-size="104"
+        font-weight="900"
+        letter-spacing="-7">crtzax</text>
+    </g>
+
+    <!-- signal slash -->
+    <rect x="281" y="220" width="358" height="3" rx="1.5" fill="#262629"/>
+    <rect x="281" y="220" width="92" height="3" rx="1.5" fill="url(#signal)"/>
+
+    <text x="460" y="254"
+      text-anchor="middle"
+      fill="#C2C2C7"
+      font-family="Arial, Helvetica, sans-serif"
+      font-size="13"
+      font-weight="700"
+      letter-spacing="3.8">INDEPENDENT DIGITAL STUDIO</text>
+
+    <text x="460" y="282"
+      text-anchor="middle"
+      fill="#6F6F75"
+      font-family="Arial, Helvetica, sans-serif"
+      font-size="11"
+      font-weight="500"
+      letter-spacing="1.6">DESIGN · DEVELOPMENT · DIGITAL SYSTEMS</text>
+
+    <!-- corner coordinates -->
+    <g fill="#5B5B60" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="700" letter-spacing="1.3">
+      <text x="42" y="330">35.7796° N</text>
+      <text x="878" y="330" text-anchor="end">78.6382° W</text>
+    </g>
+
+    <!-- frame -->
+    <rect x="1" y="1" width="918" height="358" rx="29" stroke="#2A2A2D" stroke-width="2"/>
+  </g>
+</svg>
